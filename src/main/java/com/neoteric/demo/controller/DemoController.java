@@ -13,7 +13,7 @@ public class DemoController {
     @Autowired
     DemoService demoService;
 
-    @PostMapping (value = "/api/searchAccount",
+    @PostMapping (value = "/api/createAccount",
             consumes = "application/json",
             produces = "application/json" )
     public String demo(){
